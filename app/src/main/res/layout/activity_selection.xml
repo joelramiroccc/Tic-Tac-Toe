@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joelcaballero.x0.Selection">
+
+    <LinearLayout android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        android:gravity="center_vertical"
+
+
+        <ImageView
+            android:id="@+id/hmp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/select" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            android:gravity="center_vertical"
+
+            <ImageView
+                android:id="@+id/xsx"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/x" />
+
+
+            <ImageView
+                android:id="@+id/oso"
+                android:layout_marginTop="70dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/o" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="ganados">Ganados</string>
+    <string name="perdidos">Perdidos</string>
+    <string name="empatados">Draws</string>
+    <string name="vacio">0</string>
+    <string name="pl1">Wins-P1</string>
+    <string name="pl2">Wins-P2</string>
+    <string name="reiniciar">Restart</string>
+    <string name="again">Play Again</string>
+    <string name="player">How many players?</string>
+    <string name="p1">1 PLAYER</string>
+    <string name="p2">2 PLAYER</string>
+    <string name="comp">Wins-PC</string>
+    <string name="playerc">Wins-PY</string>
+</resources>
